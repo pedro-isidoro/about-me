@@ -2,8 +2,8 @@
 Projeto feito como uma Landing Page, usando uma mistura de display grid e display flex.
 
 ## Tecnologias Ultilizadas
--HTML
--CSS
+- HTML
+- CSS
 
 ### Desafios
 Conseguir deixar a landing page de uma forma proporcinal.
