@@ -155,6 +155,7 @@ body{
 }
 
 .container .projects .project-1{
+    grid-area: project-1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,6 +178,7 @@ body{
 }
 
 .container .projects .project-2{
+    grid-area: project-2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -210,23 +212,17 @@ body{
 
 /* FOOTER */
 .footer{
-    background-color: #a1785c;
     padding: 4rem 1.5rem;
-
-    display: grid;
-    grid: "menu-footer menu-footer"
-          "contacts contacts";
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    background-color: #a1785c;
 }
 
 .footer .menu .menu-footer{
-    grid-area: menu-footer;
-    
     display: flex;
     flex-direction: row;
 
@@ -247,9 +243,18 @@ body{
     border-radius: 2rem;
 }
 
+.footer .contacts{
+    display: grid;
+    grid: "contacts nets";
+    gap: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer .contacts .contact{
     grid-area: contacts;
-    
 
     display: flex;
     flex-direction: column;
@@ -261,10 +266,14 @@ body{
 
 .footer .contacts .nets{
     grid-area: nets;
+}
 
+.footer .contacts .nets ul{
     display: flex;
 }
 
 .footer .contacts .nets ul li i{
     font-size: 1.6rem;
+
+    padding: 1rem;
 }
