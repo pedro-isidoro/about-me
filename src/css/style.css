@@ -152,6 +152,8 @@ body{
 .container .projects .project-1,
 .container .projects .project-2{
     padding: 0.8rem;
+
+    background-color: #776150;
 }
 
 .container .projects .project-1{
