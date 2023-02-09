@@ -1,0 +1,270 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #d9d3d7;
+    background-color: #31464b;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.4rem;
+
+    background-color: #a1785c;
+}
+
+.header .name{
+    font-size: 2.5rem;
+    color: #1f1f1f;
+}
+
+.header .menu{
+    display: flex;
+}
+
+.header .menu li{
+    font-size: 1.8rem;
+
+    padding: 0 0.4rem;
+}
+
+.header .menu li a{
+    color: #1f1f1f;
+    padding: 0.8rem 1.2rem;
+}
+
+.header .menu li a:hover{
+    color: #d9d3d7;
+    background-color: #31464b;
+    border-radius: 2rem;
+}
+
+/* CONTAINER */
+.container{
+    padding: 3.5rem 1.5rem;
+
+    display: grid;
+    grid: "about about"
+          "studies ."
+          ". skills"
+          "projects projects";
+}
+
+/* CONTAINER ABOUT*/
+.container .about{
+    grid-area: about;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5rem;
+}
+
+.container .about img{
+    width: 25%;
+
+    border-radius: 1.5rem;
+}
+
+.container .about .about-me{
+    padding: 0 1.8rem;
+}
+
+.container .about .about-me .title-name{
+    font-size: 2.5rem;
+
+    margin-bottom: 1.6rem;
+}
+
+.container .about .about-me p{
+    text-align: justify;
+    font-size: 1.75rem;
+}
+
+.container .about .about-me p span{
+    color: #ffc400;
+}
+
+/* CONTAINER STUDIES */
+.container .studies{
+    grid-area: studies;
+
+    padding: 1rem 2rem;
+    margin-bottom: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .studies .college{
+    margin-bottom: 2.4rem;
+}
+
+.container .studies .title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container .studies .college ul li{
+    font-size: 1.6rem;
+}
+
+.container .studies .course ul li{
+    font-size: 1.6rem;
+}
+
+/* CONTAINER SKILLS */
+.container .skills{
+    grid-area: skills;
+
+    padding: 1rem;
+    margin-bottom: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .skills .soft-skills{
+    font-size: 1.6rem;
+}
+
+/* CONTAINER PROJECTS */
+.container .projects{
+    grid-area: projects;
+    grid: "project-1 project-2";
+
+    gap: 2.5rem;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .projects .project-1,
+.container .projects .project-2{
+    padding: 0.8rem;
+}
+
+.container .projects .project-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+
+    border: solid 0.2rem #1f1f1f;
+}
+
+.container .projects .project-1 .title,
+.container .projects .project-2 .title{
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.container .projects .project-1 picture img,
+.container .projects .project-2 picture img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.container .projects .project-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+
+    border: solid 0.2rem #1f1f1f;
+}
+
+.container .projects .project-1 .github,
+.container .projects .project-2 .github{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .projects .project-1 .github a,
+.container .projects .project-2 .github a{
+    font-size: 1.6rem;
+    color: #d9d3d7;
+
+    padding: 0.6rem;
+}
+
+.container .projects .project-1 .github a:hover,
+.container .projects .project-2 .github a:hover{
+    background-color: #a1785c;
+    color: #d9d3d7;
+
+    border-radius: 1rem;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #a1785c;
+    padding: 4rem 1.5rem;
+
+    display: grid;
+    grid: "menu-footer menu-footer"
+          "contacts contacts";
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .menu .menu-footer{
+    grid-area: menu-footer;
+    
+    display: flex;
+    flex-direction: row;
+
+    padding: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.footer .menu .menu-footer li a{
+    font-size: 1.8rem;
+    color: #d9d3d7;
+
+    padding: 0.8rem 1.2rem;
+}
+
+.footer .menu .menu-footer li a:hover{
+    color: #d9d3d7;
+    background-color: #31464b;
+    border-radius: 2rem;
+}
+
+.footer .contacts .contact{
+    grid-area: contacts;
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .contacts ul li{
+    font-size: 1.6rem;
+}
+
+.footer .contacts .nets{
+    grid-area: nets;
+
+    display: flex;
+}
+
+.footer .contacts .nets ul li i{
+    font-size: 1.6rem;
+}
