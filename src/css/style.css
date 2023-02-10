@@ -261,9 +261,9 @@ body{
 
 .footer .contacts .contact{
     grid-area: contacts;
-
     display: flex;
     flex-direction: column;
+    padding: 0.5rem;
 }
 
 .footer .contacts .contact ul li{
@@ -286,6 +286,7 @@ body{
 
 .footer .contacts .nets{
     grid-area: nets;
+    padding: 1rem;
 }
 
 .footer .contacts .nets ul{
