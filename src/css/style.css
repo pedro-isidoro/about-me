@@ -50,8 +50,8 @@ body{
 
     display: grid;
     grid: "about about"
-          "studies ."
-          ". skills"
+          "studies studies"
+          "skills skills"
           "projects projects";
 }
 
@@ -104,6 +104,14 @@ body{
     align-items: center;
 }
 
+.container .studies .education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+}
+
 .container .studies .college{
     margin-bottom: 2.4rem;
 }
@@ -113,10 +121,7 @@ body{
     margin-bottom: 1rem;
 }
 
-.container .studies .college ul li{
-    font-size: 1.6rem;
-}
-
+.container .studies .college ul li,
 .container .studies .course ul li{
     font-size: 1.6rem;
 }
@@ -199,7 +204,7 @@ body{
 .container .projects .project-1 .github a,
 .container .projects .project-2 .github a{
     font-size: 1.6rem;
-    color: #d9d3d7;
+    color: #1f1f1f;
 
     padding: 0.6rem;
 }
@@ -219,7 +224,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 
     background-color: #a1785c;
 }
@@ -248,7 +252,7 @@ body{
 .footer .contacts{
     display: grid;
     grid: "contacts nets";
-    gap: 3rem;
+    gap: 4rem;
 
     display: flex;
     justify-content: center;
@@ -260,35 +264,49 @@ body{
 
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
-.footer .contacts ul li{
+.footer .contacts .contact ul li{
     font-size: 1.6rem;
+}
+
+.footer .contacts .contact ul li a{
+    color: #d9d3d7;
+    padding: 0.6rem 0;
+}
+
+.footer .contacts .contact ul li:not(:nth-child(1)){
+    margin-top: 1.1rem;
+}
+
+.footer .contacts .contact ul li a:hover{
+    color: #1f1f1f;
+    background-color: #d9d3d7;
 }
 
 .footer .contacts .nets{
     grid-area: nets;
+    width: 50%;
 }
 
-.footer .contacts .nets ul{
+.footer .contacts .nets .menu-nets ul{
     display: flex;
 }
 
-.footer .contacts .nets ul li a i{
+.footer .contacts .nets .menu-nets ul li a i{
     font-size: 2.5rem;
     color: #1f1f1f;
 
-    padding: 0.8rem;
+    padding: 0.6rem;
 }
 
-.footer .contacts .nets ul li:not(:nth-child(1)){
-    margin-left: 1.4rem;
+.footer .contacts .nets .menu-nets ul li:not(:nth-child(1)){
+    margin-left: 1.6rem;
 }
 
-.footer .contacts .nets ul li a i:hover{
-    background-color: #31464b;
-    color: #d9d3d7;
-
+.footer .contacts .nets .menu-nets ul li a i:hover{
+    color: #31464b;
     border-radius: 2.5rem;
-    border: solid 0.2rem #d9d3d7;
+    border: solid 0.2rem #31464b;
 }
