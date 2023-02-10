@@ -264,7 +264,6 @@ body{
 
     display: flex;
     flex-direction: column;
-    width: 50%;
 }
 
 .footer .contacts .contact ul li{
@@ -287,25 +286,24 @@ body{
 
 .footer .contacts .nets{
     grid-area: nets;
-    width: 50%;
 }
 
-.footer .contacts .nets .menu-nets ul{
+.footer .contacts .nets ul{
     display: flex;
 }
 
-.footer .contacts .nets .menu-nets ul li a i{
+.footer .contacts .nets ul li a i{
     font-size: 2.5rem;
     color: #1f1f1f;
 
     padding: 0.6rem;
 }
 
-.footer .contacts .nets .menu-nets ul li:not(:nth-child(1)){
+.footer .contacts .nets ul li:not(:nth-child(1)){
     margin-left: 1.6rem;
 }
 
-.footer .contacts .nets .menu-nets ul li a i:hover{
+.footer .contacts .nets ul li a i:hover{
     color: #31464b;
     border-radius: 2.5rem;
     border: solid 0.2rem #31464b;
