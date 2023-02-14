@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.header .menu{
+.header .menu-2{
     display: none;
     width: 60px;
     height: 60px;
@@ -16,8 +16,9 @@
     display: block;
     width: 30px;
     height: 2px;
-    top: 29px;
+    top: 20px;
     left: 15px;
+    text-align: center;
     transition: 0.5s ease-in-out;
 }
 
@@ -59,11 +60,11 @@
 }
 
 @media (max-width: 900px){
-    .header .menu{
+    .header .menu-2{
         display: block;
     }
 
-    .header nav ul{
+    .header nav .menu{
         display: none;
     }
 
