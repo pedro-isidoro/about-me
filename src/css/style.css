@@ -50,8 +50,7 @@ body{
 
     display: grid;
     grid: "about about"
-          "studies studies"
-          "skills skills"
+          "skills studies"
           "projects projects";
 }
 
@@ -116,13 +115,13 @@ body{
     margin-bottom: 2.4rem;
 }
 
-.container .studies .title{
+.container .studies .text .title{
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.container .studies .college ul li,
-.container .studies .course ul li{
+.container .studies .college .text ul li,
+.container .studies .course .text ul li{
     font-size: 1.6rem;
 }
 
@@ -138,8 +137,17 @@ body{
     align-items: center;
 }
 
-.container .skills .soft-skills{
+.container .skills .soft-skills ul li{
     font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+
+.container .skills .soft-skills ul li .html{
+    color: rgb(235, 179, 39);
+}
+
+.container .skills .soft-skills ul li .css{
+    color: rgb(88, 182, 219);
 }
 
 /* CONTAINER PROJECTS */
