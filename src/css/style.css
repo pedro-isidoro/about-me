@@ -108,7 +108,12 @@ body{
     justify-content: center;
     align-items: center;
 
-    gap: 5rem;
+    gap: 1rem;
+    min-width: 50%;
+}
+
+.container .studies .education .image-education img{
+    width: 80%;
 }
 
 .container .studies .college{
