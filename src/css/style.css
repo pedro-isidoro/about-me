@@ -285,7 +285,7 @@ body{
 }
 
 .footer .contacts .contact ul li a{
-    color: #d9d3d7;
+    color: #62C7C1;
     padding: 0.6rem 0;
 }
 
@@ -294,8 +294,7 @@ body{
 }
 
 .footer .contacts .contact ul li a:hover{
-    color: #1f1f1f;
-    background-color: #d9d3d7;
+    color: #21173C;
 }
 
 .footer .contacts .nets{
@@ -319,7 +318,7 @@ body{
 }
 
 .footer .contacts .nets ul li a i:hover{
-    color: #31464b;
+    color: #21173C;
     border-radius: 2.5rem;
-    border: solid 0.2rem #31464b;
+    border: solid 0.2rem #21173C;
 }
