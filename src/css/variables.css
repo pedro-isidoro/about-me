@@ -1,7 +1,8 @@
 :root{
-    --header-color: ;
-    --container-color: ;
-    --footer-color: ;
+    --header-footer-color: #8333AF;
+    --container-color: #21173C;
+    --link-color: #62C7C1;
+    --link-background-color: #21173C;
 
     --heading-1-color: ;
     --heading-2-color: ;
@@ -9,6 +10,4 @@
     --heading-4-color: ;
     --paragraph-color: ;
 
-    --link-color: ;
-    --link-shadow-color: ;
 }
