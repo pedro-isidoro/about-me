@@ -4,7 +4,7 @@ html{
 
 body{
     color: #d9d3d7;
-    background-color: #31464b;
+    background-color: #21173C;
 }
 
 /* HEADER */
@@ -15,12 +15,12 @@ body{
 
     padding: 1.4rem;
 
-    background-color: #a1785c;
+    background-color: #8333AF;
 }
 
 .header .name{
     font-size: 2.5rem;
-    color: #1f1f1f;
+    color: #62C7C1;
 }
 
 .header .menu{
@@ -238,7 +238,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    background-color: #a1785c;
+    background-color: #8333AF;
 }
 
 .footer .menu .menu-footer{
@@ -251,7 +251,7 @@ body{
 
 .footer .menu .menu-footer li a{
     font-size: 1.8rem;
-    color: #1f1f1f;
+    color: #62C7C1;
 
     padding: 0.8rem 1.2rem;
 }
@@ -308,7 +308,7 @@ body{
 
 .footer .contacts .nets ul li a i{
     font-size: 2.5rem;
-    color: #1f1f1f;
+    color: #62C7C1;
 
     padding: 0.6rem;
 }
