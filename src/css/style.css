@@ -34,13 +34,13 @@ body{
 }
 
 .header .menu li a{
-    color: #1f1f1f;
+    color: #62C7C1;
     padding: 0.8rem 1.2rem;
 }
 
 .header .menu li a:hover{
     color: #d9d3d7;
-    background-color: #31464b;
+    background-color: #21173C;
     border-radius: 2rem;
 }
 
@@ -114,6 +114,7 @@ body{
 
 .container .studies .education .image-education img{
     width: 80%;
+    border: solid 0.2rem #ffc400;
 }
 
 .container .studies .college{
@@ -171,7 +172,7 @@ body{
 .container .projects .project-2{
     padding: 0.8rem;
 
-    background-color: #776150;
+    background-color: #8333AF;
 }
 
 .container .projects .project-1{
@@ -182,7 +183,7 @@ body{
     text-align: center;
     width: 50%;
 
-    border: solid 0.2rem #1f1f1f;
+    border: solid 0.2rem #62C7C1;
 }
 
 .container .projects .project-1 .title,
@@ -205,7 +206,7 @@ body{
     text-align: center;
     width: 50%;
 
-    border: solid 0.2rem #1f1f1f;
+    border: solid 0.2rem #62C7C1;
 }
 
 .container .projects .project-1 .github,
@@ -217,14 +218,14 @@ body{
 .container .projects .project-1 .github a,
 .container .projects .project-2 .github a{
     font-size: 1.6rem;
-    color: #1f1f1f;
+    color: #62C7C1;
 
     padding: 0.6rem;
 }
 
 .container .projects .project-1 .github a:hover,
 .container .projects .project-2 .github a:hover{
-    background-color: #a1785c;
+    background-color: #21173C;
     color: #d9d3d7;
 
     border-radius: 1rem;
@@ -258,7 +259,7 @@ body{
 
 .footer .menu .menu-footer li a:hover{
     color: #d9d3d7;
-    background-color: #31464b;
+    background-color: #21173C;
     border-radius: 2rem;
 }
 
