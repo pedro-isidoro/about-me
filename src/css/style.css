@@ -3,8 +3,8 @@ html{
 }
 
 body{
-    color: #d9d3d7;
-    background-color: #21173C;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 /* HEADER */
@@ -15,12 +15,12 @@ body{
 
     padding: 1.4rem;
 
-    background-color: #8333AF;
+    background-color: var(--light-container-color);
 }
 
 .header .name{
     font-size: 2.5rem;
-    color: #62C7C1;
+    color: var(--high-color);
 }
 
 .header .menu{
@@ -34,13 +34,13 @@ body{
 }
 
 .header .menu li a{
-    color: #62C7C1;
+    color: var(--high-color);;
     padding: 0.8rem 1.2rem;
 }
 
 .header .menu li a:hover{
-    color: #d9d3d7;
-    background-color: #21173C;
+    color: var(--text-color);
+    background-color: var(--background-color);
     border-radius: 2rem;
 }
 
@@ -77,7 +77,6 @@ body{
 
 .container .about .about-me .title-name{
     font-size: 2.5rem;
-    color: #d9d3d7;
 
     margin-bottom: 1.6rem;
 }
@@ -88,7 +87,7 @@ body{
 }
 
 .container .about .about-me p span{
-    color: #ffc400;
+    color: var(--span-border-color);
 }
 
 /* CONTAINER STUDIES */
@@ -115,7 +114,7 @@ body{
 
 .container .studies .education .image-education img{
     width: 80%;
-    border: solid 0.2rem #ffc400;
+    border: solid 0.2rem var(--span-border-color);
 }
 
 .container .studies .college{
@@ -150,11 +149,11 @@ body{
 }
 
 .container .skills .soft-skills ul li .html{
-    color: rgb(235, 179, 39);
+    color: var(--html-icon-color);
 }
 
 .container .skills .soft-skills ul li .css{
-    color: rgb(88, 182, 219);
+    color: var(--css-icon-color);
 }
 
 /* CONTAINER PROJECTS */
@@ -173,7 +172,7 @@ body{
 .container .projects .project-2{
     padding: 0.8rem;
 
-    background-color: #8333AF;
+    background-color: var(--light-container-color);
 }
 
 .container .projects .project-1{
@@ -184,7 +183,7 @@ body{
     text-align: center;
     width: 50%;
 
-    border: solid 0.2rem #62C7C1;
+    border: solid 0.2rem var(--high-color);;
 }
 
 .container .projects .project-1 .title-projects,
@@ -207,7 +206,7 @@ body{
     text-align: center;
     width: 50%;
 
-    border: solid 0.2rem #62C7C1;
+    border: solid 0.2rem var(--high-color);;
 }
 
 .container .projects .project-1 .github,
@@ -219,15 +218,15 @@ body{
 .container .projects .project-1 .github a,
 .container .projects .project-2 .github a{
     font-size: 1.6rem;
-    color: #62C7C1;
+    color: var(--high-color);;
 
     padding: 0.6rem;
 }
 
 .container .projects .project-1 .github a:hover,
 .container .projects .project-2 .github a:hover{
-    background-color: #21173C;
-    color: #d9d3d7;
+    background-color: var(--background-color);
+    color: var(--text-color);
 
     border-radius: 1rem;
 }
@@ -240,7 +239,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    background-color: #8333AF;
+    background-color: var(--light-container-color);
 }
 
 .footer .menu .menu-footer{
@@ -253,14 +252,14 @@ body{
 
 .footer .menu .menu-footer li a{
     font-size: 2.4rem;
-    color: #62C7C1;
+    color: var(--high-color);;
 
     padding: 0.8rem 1.2rem;
 }
 
 .footer .menu .menu-footer li a:hover{
-    color: #d9d3d7;
-    background-color: #21173C;
+    color: var(--text-color);
+    background-color: var(--background-color);
     border-radius: 2rem;
 }
 
@@ -286,7 +285,7 @@ body{
 }
 
 .footer .contacts .contact ul li a{
-    color: #62C7C1;
+    color: var(--high-color);;
     padding: 0.6rem 0;
 }
 
@@ -295,7 +294,7 @@ body{
 }
 
 .footer .contacts .contact ul li a:hover{
-    color: #21173C;
+    color: var(--background-color);
 }
 
 .footer .contacts .nets{
@@ -309,7 +308,7 @@ body{
 
 .footer .contacts .nets ul li a i{
     font-size: 2.8rem;
-    color: #62C7C1;
+    color: var(--high-color);;
 
     padding: 0.6rem;
 }
@@ -319,7 +318,7 @@ body{
 }
 
 .footer .contacts .nets ul li a i:hover{
-    color: #21173C;
+    color: var(--background-color);
     border-radius: 2.5rem;
-    border: solid 0.2rem #21173C;
+    border: solid 0.2rem var(--background-color);
 }

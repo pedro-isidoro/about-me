@@ -1,13 +1,10 @@
 :root{
-    --header-footer-color: #8333AF;
-    --container-color: #21173C;
-    --link-color: #62C7C1;
-    --link-background-color: #21173C;
+    --light-container-color: rgb(131, 51, 175);
+    --background-color: rgb(33, 23, 60);
+    --high-color: rgb(98, 199, 193);
+    --text-color: rgb(217, 211, 215);
+    --span-border-color: rgb(255, 196, 0);
 
-    --heading-name-color: #62C7C1;
-    --title-name-color: #d9d3d7;
-    --title-studies-color: #d9d3d7;
-    --title-projects-color: #d9d3d7;
-    --paragraph-color: #d9d3d7;
-
+    --html-icon-color: rgb(235, 179, 39);
+    --css-icon-color: rgb(88, 182, 219);
 }
