@@ -182,8 +182,6 @@ body{
     justify-content: center;
     text-align: center;
     width: 50%;
-
-    border: solid 0.2rem var(--high-color);;
 }
 
 .container .projects .project-1 .title-projects,
@@ -196,6 +194,7 @@ body{
 .container .projects .project-2 picture img{
     width: 100%;
     margin-bottom: 1.5rem;
+    border: solid 0.2rem var(--high-color);
 }
 
 .container .projects .project-2{
@@ -205,8 +204,6 @@ body{
     justify-content: center;
     text-align: center;
     width: 50%;
-
-    border: solid 0.2rem var(--high-color);;
 }
 
 .container .projects .project-1 .github,
