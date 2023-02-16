@@ -46,12 +46,25 @@ body{
 
 /* CONTAINER */
 .container{
-    padding: 3.5rem 1.5rem;
+    padding: 3.5rem 4rem;
 
     display: grid;
     grid: "about about"
-          "skills studies"
+          "skills-studies skills-studies"
           "projects projects";
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .title-name{
+    font-size: 2.8rem;
+    text-align: center;
+
+    margin-bottom: 4rem;
+    color: var(--high-color-1);
 }
 
 /* CONTAINER ABOUT*/
@@ -59,35 +72,49 @@ body{
     grid-area: about;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     margin-bottom: 5rem;
 }
 
-.container .about img{
-    width: 25%;
+.container .about .me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .about .me img{
+    width: 20%;
 
     border-radius: 1.5rem;
 }
 
-.container .about .about-me{
+.container .about .me .about-me{
     padding: 0 1.8rem;
 }
 
-.container .about .about-me .title-name{
-    font-size: 2.5rem;
+.container .about .me .about-me .my-name{
+    font-size: 2.2rem;
 
     margin-bottom: 1.6rem;
 }
 
-.container .about .about-me p{
+.container .about .me .about-me p{
     text-align: justify;
     font-size: 1.75rem;
 }
 
-.container .about .about-me p span{
+.container .about .me .about-me p span{
     color: var(--span-border-color);
+}
+
+/* skill-studies */
+.skill-studies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* CONTAINER SKILLS */
@@ -98,8 +125,10 @@ body{
     margin-bottom: 5rem;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 50%;
 }
 
 .container .skills .soft-skills ul li{
@@ -126,6 +155,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-width: 50%;
 }
 
 .container .studies .education{
@@ -134,7 +164,6 @@ body{
     align-items: center;
 
     gap: 1rem;
-    min-width: 50%;
 }
 
 .container .studies .education .image-education img{
@@ -158,6 +187,13 @@ body{
 
 /* CONTAINER PROJECTS */
 .container .projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .projects .project{
     grid-area: projects;
     grid: "project-1 project-2";
 
