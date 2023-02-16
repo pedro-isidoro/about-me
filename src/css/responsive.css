@@ -37,6 +37,12 @@
         opacity: 0.9;}
     }
 
+    /* Header */
+    .header nav ul{
+        width: 16rem;
+        padding: 1.4rem 1rem;
+    }
+
     /* Studies */
     .container .studies{
         width: 88%;
@@ -56,7 +62,23 @@
     }
 
     /* FOOTER */
-    .footer{
-        
+    .footer .menu .menu-footer li a{
+        font-size: 2rem;
+    }
+
+    .footer .contacts{
+        gap: 1rem;
+    }
+
+    .footer .contacts .contact ul li{
+        font-size: 1.8rem;
+    }
+
+    .footer .contacts .nets ul li a i{
+        font-size: 2.4rem;
+    }
+
+    .footer .contacts .nets ul li:not(:nth-child(1)){
+        margin-left: 1rem;
     }
 }
