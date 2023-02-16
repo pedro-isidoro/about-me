@@ -1,7 +1,13 @@
 @media(max-width: 610px){
+    /* Header */
+    .header nav ul{
+        width: 16rem;
+        padding: 1.4rem 1rem;
+    }
+
     /* CONTAINER */
     .container{
-        padding: 2 rem 2rem;
+        padding: 2rem 1.8rem;
 
         display: grid;
         grid: "about about"
@@ -16,7 +22,7 @@
     }
 
     .container .title-name{
-        font-size: 2.6rem;    
+        font-size: 2.8rem;    
         margin-bottom: 2.8rem;
     }
 
@@ -31,15 +37,19 @@
         margin-bottom: 2.5rem;
     }
 
+    .container .about .me .about-me .my-name{
+        font-size: 2.6rem;
+    }
+
     .container .about .me .about-me p{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     .container .about::after{
         content: url(../image/seta_preta.png);
         position: absolute;
         height: 28px;
-        bottom: 20px;
+        bottom: 40px;
         animation: downarrow 0.6s infinite alternate ease-in-out;
     }
 
@@ -48,12 +58,6 @@
         opacity: 0.4;}
         100%{-webkit-transform: translateY(0.4em);
         opacity: 0.9;}
-    }
-
-    /* Header */
-    .header nav ul{
-        width: 16rem;
-        padding: 1.4rem 1rem;
     }
 
     /* skill-studies */
@@ -67,9 +71,23 @@
         width: 90%;
     }
 
+    .container .skills .soft-skills ul li{
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
     /* Studies */
     .container .skill-studies .studies{
         width: 90%;
+    }
+
+    .container .studies .text .title-studies{
+        font-size: 2.1rem;
+    }
+
+    .container .studies .college .text ul li,
+    .container .studies .course .text ul li{
+        font-size: 1.7rem;
     }
 
     /* Projects */
@@ -82,7 +100,7 @@
 
     .container .projects .project-1,
     .container .projects .project-2{
-        width: 100%;
+        width: 84%;
     }
 
     /* FOOTER */
