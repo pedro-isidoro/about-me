@@ -1,7 +1,7 @@
 @media(max-width: 610px){
     /* CONTAINER */
     .container{
-        padding: 3.5rem 2rem;
+        padding: 2 rem 2rem;
 
         display: grid;
         grid: "about about"
@@ -15,18 +15,31 @@
         align-items: center;
     }
 
-    .container .about{
-        flex-direction: column;
-        gap: 3rem;
+    .container .title-name{
+        font-size: 2.6rem;    
+        margin-bottom: 2.8rem;
+    }
 
+    /* ABOUT */
+    .container .about .me{
+        display: flex;
+        flex-direction: column;
         margin-bottom: 6rem;
+    }
+
+    .container .about .me img{
+        margin-bottom: 2.5rem;
+    }
+
+    .container .about .me .about-me p{
+        font-size: 1.6rem;
     }
 
     .container .about::after{
         content: url(../image/seta_preta.png);
         position: absolute;
         height: 28px;
-        bottom: 25px;
+        bottom: 20px;
         animation: downarrow 0.6s infinite alternate ease-in-out;
     }
 
@@ -43,13 +56,24 @@
         padding: 1.4rem 1rem;
     }
 
+    /* skill-studies */
+    .container .skill-studies{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* skill */
+    .container .skill-studies .skills{
+        width: 90%;
+    }
+
     /* Studies */
-    .container .studies{
-        width: 88%;
+    .container .skill-studies .studies{
+        width: 90%;
     }
 
     /* Projects */
-    .container .projects{
+    .container .projects .project{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -58,7 +82,7 @@
 
     .container .projects .project-1,
     .container .projects .project-2{
-        width: 80%;
+        width: 100%;
     }
 
     /* FOOTER */

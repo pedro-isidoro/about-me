@@ -136,6 +136,10 @@ body{
     line-height: 2.8rem;
 }
 
+.container .skills .soft-skills ul li .js{
+    color: var(--js-icon-color);
+}
+
 .container .skills .soft-skills ul li .html{
     color: var(--html-icon-color);
 }
