@@ -90,6 +90,31 @@ body{
     color: var(--span-border-color);
 }
 
+/* CONTAINER SKILLS */
+.container .skills{
+    grid-area: skills;
+
+    padding: 1rem;
+    margin-bottom: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .skills .soft-skills ul li{
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+.container .skills .soft-skills ul li .html{
+    color: var(--html-icon-color);
+}
+
+.container .skills .soft-skills ul li .css{
+    color: var(--css-icon-color);
+}
+
 /* CONTAINER STUDIES */
 .container .studies{
     grid-area: studies;
@@ -129,31 +154,6 @@ body{
 .container .studies .college .text ul li,
 .container .studies .course .text ul li{
     font-size: 1.6rem;
-}
-
-/* CONTAINER SKILLS */
-.container .skills{
-    grid-area: skills;
-
-    padding: 1rem;
-    margin-bottom: 5rem;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container .skills .soft-skills ul li{
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-}
-
-.container .skills .soft-skills ul li .html{
-    color: var(--html-icon-color);
-}
-
-.container .skills .soft-skills ul li .css{
-    color: var(--css-icon-color);
 }
 
 /* CONTAINER PROJECTS */
