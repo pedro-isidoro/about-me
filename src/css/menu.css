@@ -11,7 +11,7 @@
 }
 
 .header .hamburguer{
-    background-color: #62C7C1;
+    background-color: var(--high-color);
     position: relative;
     display: block;
     width: 30px;
@@ -24,7 +24,7 @@
 
 .header .hamburguer:before,
 .header .hamburguer:after{
-    background-color: #62C7C1;
+    background-color: var(--high-color);
     content: "";
     display: block;
     width: 100%;
@@ -81,7 +81,7 @@
 
     .header nav ul{
         width: 200px;
-        background-color: #8333AF;
+        background-color: var(--light-container-color);
         padding: 20px;
     }
 
