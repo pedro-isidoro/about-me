@@ -18,6 +18,8 @@
     .container .about{
         flex-direction: column;
         gap: 3rem;
+
+        margin-bottom: 6rem;
     }
 
     .container .about::after{
@@ -51,5 +53,10 @@
     .container .projects .project-1,
     .container .projects .project-2{
         width: 80%;
+    }
+
+    /* FOOTER */
+    .footer{
+        
     }
 }
