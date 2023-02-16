@@ -20,7 +20,7 @@ body{
 
 .header .name{
     font-size: 2.5rem;
-    color: var(--high-color);
+    color: var(--high-color-1);
 }
 
 .header .menu{
@@ -194,7 +194,7 @@ body{
 .container .projects .project-2 picture img{
     width: 100%;
     margin-bottom: 1.5rem;
-    border: solid 0.2rem var(--high-color);
+    border: solid 0.2rem var(--high-color-projects);
 }
 
 .container .projects .project-2{
@@ -249,7 +249,7 @@ body{
 
 .footer .menu .menu-footer li a{
     font-size: 2.4rem;
-    color: var(--high-color);;
+    color: var(--high-color-footer);
 
     padding: 0.8rem 1.2rem;
 }
@@ -282,7 +282,7 @@ body{
 }
 
 .footer .contacts .contact ul li a{
-    color: var(--high-color);;
+    color: var(--high-color-footer);
     padding: 0.6rem 0;
 }
 
@@ -305,7 +305,7 @@ body{
 
 .footer .contacts .nets ul li a i{
     font-size: 2.8rem;
-    color: var(--high-color);;
+    color: var(--high-color-footer);
 
     padding: 0.6rem;
 }

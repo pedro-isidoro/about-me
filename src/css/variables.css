@@ -1,4 +1,7 @@
 :root{
+    --high-color-1: rgb(115, 255, 143);
+    --high-color-footer: rgb(40, 207, 40);
+    --high-color-projects: rgb(32, 199, 32);
     --light-container-color: rgb(131, 51, 175);
     --background-color: rgb(33, 23, 60);
     --high-color: rgb(98, 199, 193);
