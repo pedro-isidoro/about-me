@@ -305,13 +305,28 @@ body{
 
 .footer .contacts .nets ul li a i{
     font-size: 2.8rem;
-    color: var(--high-color-footer);
 
     padding: 0.6rem;
 }
 
 .footer .contacts .nets ul li:not(:nth-child(1)){
     margin-left: 1.6rem;
+}
+
+.footer .contacts .nets ul .instagram{
+    color: var( --instagram-icon-color);
+}
+
+.footer .contacts .nets ul .whatsapp{
+    color: var(--whatsapp-icon-color);
+}
+
+.footer .contacts .nets ul .github{
+    color: var(--github-icon-color);
+}
+
+.footer .contacts .nets ul .linkedin{
+    color: var(--linkedin-icon-color);
 }
 
 .footer .contacts .nets ul li a i:hover{
