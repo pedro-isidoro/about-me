@@ -45,21 +45,6 @@
         font-size: 1.8rem;
     }
 
-    .container .about::after{
-        content: url(../image/seta_preta.png);
-        position: absolute;
-        height: 28px;
-        bottom: 40px;
-        animation: downarrow 0.6s infinite alternate ease-in-out;
-    }
-
-    @keyframes downarrow{
-        0%{-webkit-transform: translateY(0);
-        opacity: 0.4;}
-        100%{-webkit-transform: translateY(0.4em);
-        opacity: 0.9;}
-    }
-
     /* skill-studies */
     .container .skill-studies{
         display: flex;
@@ -122,5 +107,34 @@
 
     .footer .contacts .nets ul li:not(:nth-child(1)){
         margin-left: 1rem;
+    }
+}
+
+@media(max-width: 450px){
+    /* HEADER */
+    .header{
+        max-width: 100%;
+    }
+
+    /* CONTAINER */
+    .container .about::after{
+        content: url(../image/seta_preta.png);
+        position: absolute;
+        height: 28px;
+        bottom: 34px;
+        left: 16px;
+        animation: downarrow 0.6s infinite alternate ease-in-out;
+    }   
+
+    @keyframes downarrow{
+        0%{-webkit-transform: translateY(0);
+        opacity: 0.4;}
+        100%{-webkit-transform: translateY(0.4em);
+        opacity: 0.9;}
+    }
+
+    /* FOOTER */
+    .footer{
+        max-width: 100%;
     }
 }
