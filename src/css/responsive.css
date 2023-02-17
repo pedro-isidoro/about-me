@@ -137,4 +137,21 @@
     .footer{
         max-width: 100%;
     }
+
+    .footer .menu .menu-footer li a{
+        font-size: 2rem;
+    
+        padding: 0.8rem 1rem;
+    }
+
+    .footer .contacts{
+        display: grid;
+        grid: "contacts nets";
+        gap: 2rem;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
