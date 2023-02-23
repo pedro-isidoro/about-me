@@ -370,7 +370,7 @@ body{
 }
 
 .footer .contacts .nets ul li a i:hover{
-    color: var(--background-color);
+    color: var(--high-color);
     border-radius: 2.5rem;
-    border: solid 0.2rem var(--background-color);
+    border: solid 0.2rem var(--high-color);
 }
