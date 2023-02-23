@@ -1,7 +1,6 @@
 # Projeto: about-me
 Projeto feito como uma Landing Page, usando uma mistura de display grid e display flex.
 <br>
-<br>
 
 ## Tecnologias Ultilizadas
 - HTML
@@ -11,7 +10,6 @@ Projeto feito como uma Landing Page, usando uma mistura de display grid e displa
 
 ## Projeto
 <img src='./src/image/portifolio-pessoal.gif'>
-<br>
 <br>
 
 ## Objetivos
