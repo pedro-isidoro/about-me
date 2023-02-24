@@ -2,12 +2,13 @@
 Projeto feito como uma Landing Page, usando uma mistura de display grid e display flex.
 <br>
 
+## Projeto
+<img src='./src/image/portifolio-pessoal.gif'>
+<br>
+
 ## Tecnologias Ultilizadas
 - HTML
 - CSS
-
-## Projeto
-<img src='./src/image/portifolio-pessoal.gif'>
 <br>
 
 ## Objetivos
