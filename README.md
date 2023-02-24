@@ -18,7 +18,6 @@ Além de fazer esse site ser responsivo.
 - HTML
 - CSS
 <br>
-<br>
 
 ## Métodos
 Foi usado display grip juntamente com display flex, para melhor agrupamento e controle das seções da Landing Page.
