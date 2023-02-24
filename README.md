@@ -6,19 +6,11 @@ Projeto feito como uma Landing Page, usando uma mistura de display grid e displa
 ## Projeto
 <img src='./src/image/portifolio-pessoal.gif'>
 <br>
-
-## Projeto
-<img src='./src/image/portifolio-pessoal.gif'>
 <br>
 
 ## Tecnologias Ultilizadas
 - HTML
 - CSS
-<br>
-<br>
-
-## Projeto
-<img src='./src/image/portifolio-pessoal.gif'>
 <br>
 <br>
 
