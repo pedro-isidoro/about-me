@@ -8,16 +8,15 @@ Projeto feito como uma Landing Page, usando uma mistura de display grid e displa
 <br>
 <br>
 
-## Tecnologias Ultilizadas
-- HTML
-- CSS
-<br>
-<br>
-
 ## Objetivos
 Fazer uma landing page, na forma de um portifólio, onde irá falar sobre minha pessoa, minhas habilidades e competências, mostrará meu projetos pessoais e por fim meios de contato e link para meu currículo. <br> 
 Além de fazer esse site ser responsivo.
 <br>
+<br>
+
+## Tecnologias Ultilizadas
+- HTML
+- CSS
 <br>
 
 ## Métodos
