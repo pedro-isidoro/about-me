@@ -111,18 +111,15 @@
 }
 
 @media(max-width: 450px){
-    /* HEADER */
-    .header{
+    /* body{
         max-width: 100%;
-    }
-
+    } */
+    /* HEADER */
+    
     /* CONTAINER */
     
 
     /* FOOTER */
-    .footer{
-        max-width: 100%;
-    }
 
     .footer .menu .menu-footer li a{
         font-size: 2rem;
