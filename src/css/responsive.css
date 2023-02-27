@@ -112,6 +112,16 @@
 
 @media(max-width: 450px){
     /* FOOTER */
+    .footer .menu .menu-footer{
+        flex-wrap: wrap;
+
+        padding: 1.4rem;
+    }
+
+    .footer .menu .menu-footer li{
+        margin-bottom: 1rem;
+    }
+
     .footer .menu .menu-footer li a{
         font-size: 2rem;
     
@@ -138,8 +148,12 @@
         padding: 1rem;
     }
 
+    .footer .menu .menu-footer li{
+        margin-bottom: 1rem;
+    }
+
     .footer .menu .menu-footer li a{
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: var(--high-color-footer);
     
         padding: 0.6rem 1rem;
