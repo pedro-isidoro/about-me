@@ -129,3 +129,19 @@
         align-items: flex-start;
     }
 }
+
+@media(max-width: 376px){
+    /* FOOTER */
+    .footer .menu .menu-footer{
+        flex-wrap: wrap;
+
+        padding: 1rem;
+    }
+
+    .footer .menu .menu-footer li a{
+        font-size: 2rem;
+        color: var(--high-color-footer);
+    
+        padding: 0.6rem 1rem;
+    }
+}
