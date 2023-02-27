@@ -110,16 +110,27 @@
     }
 }
 
-@media(max-width: 450px){
+@media(max-width: 500px){
     /* FOOTER */
     .footer .menu .menu-footer{
         flex-wrap: wrap;
 
-        padding: 1.4rem;
+        padding: 1.2rem;
     }
 
     .footer .menu .menu-footer li{
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media(max-width: 450px){
+    /* FOOTER */
+    .footer .menu .menu-footer{
+        padding: 1.2rem;
+    }
+
+    .footer .menu .menu-footer li{
+        margin-bottom: 1.2rem;
     }
 
     .footer .menu .menu-footer li a{
@@ -143,8 +154,6 @@
 @media(max-width: 376px){
     /* FOOTER */
     .footer .menu .menu-footer{
-        flex-wrap: wrap;
-
         padding: 1rem;
     }
 
