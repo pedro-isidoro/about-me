@@ -1,5 +1,5 @@
 # Projeto: about-me
-Projeto feito como uma Landing Page, usando uma mistura de display grid e display flex.
+Um portifólio em forma de uma landing page
 <br>
 <br>
 
@@ -17,6 +17,7 @@ Além de fazer esse site ser responsivo.
 ## Tecnologias Ultilizadas
 - HTML
 - CSS
+<br>
 <br>
 
 ## Métodos
