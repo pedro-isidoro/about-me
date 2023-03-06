@@ -347,6 +347,8 @@ body{
     font-size: 2.8rem;
 
     padding: 0.6rem;
+    border-radius: 2.5rem;
+    border: solid 0.2rem transparent;
 }
 
 .footer .contacts .nets ul li:not(:nth-child(1)){
@@ -371,6 +373,5 @@ body{
 
 .footer .contacts .nets ul li a i:hover{
     color: var(--high-color);
-    border-radius: 2.5rem;
-    border: solid 0.2rem var(--high-color);
+    border-color: var(--high-color);
 }
