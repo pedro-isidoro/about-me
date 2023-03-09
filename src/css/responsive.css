@@ -84,7 +84,8 @@
     }
 
     .container .projects .project-1,
-    .container .projects .project-2{
+    .container .projects .project-2,
+    .container .projects .project-3{
         width: 84%;
     }
 
