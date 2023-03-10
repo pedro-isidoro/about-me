@@ -1,5 +1,6 @@
 # Projeto: about-me
-Um portifólio em forma de uma landing page
+Um portifólio em forma de uma landing page.
+Onde estarão uma breve sinopse sobre minha pessoa, locais onde estudo, projetos pessais feitos e formas de contato.
 <br>
 <br>
 
