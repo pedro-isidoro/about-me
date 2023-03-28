@@ -265,8 +265,7 @@ body{
 }
 
 .container .projects .project-1 .github a:hover,
-.container .projects .project-2 .github a:hover,
-.container .projects .project-3 .github a:hover{
+.container .projects .project-2 .github a:hover{
     background-color: var(--background-color);
     color: var(--text-color);
 
