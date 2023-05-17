@@ -47,6 +47,7 @@ body{
 /* CONTAINER */
 .container{
     padding: 3.5rem 4rem;
+    margin: 2rem 0 5rem 0;
 
     display: grid;
     grid: "about about"
@@ -216,7 +217,7 @@ body{
 .container .projects .project-1,
 .container .projects .project-2,
 .container .projects .project-3{
-    background-color: var(--light-container-color);
+    border: solid 0.4rem var(--light-container-color);
 
     padding: 0.8rem;
     display: flex;
@@ -349,11 +350,11 @@ body{
     padding: 1rem;
 }
 
-.footer .contacts .nets ul{
+.footer .contacts .nets{
     display: flex;
 }
 
-.footer .contacts .nets ul li a i{
+.footer .contacts .nets li a i{
     font-size: 2.8rem;
 
     padding: 0.6rem;
@@ -361,27 +362,27 @@ body{
     border: solid 0.2rem transparent;
 }
 
-.footer .contacts .nets ul li:not(:nth-child(1)){
+.footer .contacts .nets li:not(:nth-child(1)){
     margin-left: 1.6rem;
 }
 
-.footer .contacts .nets ul .instagram{
+.footer .contacts .nets .instagram{
     color: var( --instagram-icon-color);
 }
 
-.footer .contacts .nets ul .whatsapp{
+.footer .contacts .nets .whatsapp{
     color: var(--whatsapp-icon-color);
 }
 
-.footer .contacts .nets ul .github{
+.footer .contacts .nets .github{
     color: var(--github-icon-color);
 }
 
-.footer .contacts .nets ul .linkedin{
+.footer .contacts .nets .linkedin{
     color: var(--linkedin-icon-color);
 }
 
-.footer .contacts .nets ul li a i:hover{
+.footer .contacts .nets li a i:hover{
     color: var(--high-color);
     border-color: var(--high-color);
 }
