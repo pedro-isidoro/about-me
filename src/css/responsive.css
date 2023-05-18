@@ -61,38 +61,53 @@
     .container .skill-studies{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     /* skill */
     .container .skill-studies .skills{
-        width: 90%;
+        width: 100%;
+    }
+
+    .container .skills .soft-skills ul{
+        margin-left: 3rem;
     }
 
     .container .skills .soft-skills ul li{
-        font-size: 2.2rem;
+        font-size: 2.4rem;
         line-height: 3rem;
     }
 
     /* Studies */
     .container .skill-studies .studies{
-        width: 90%;
+        width: 100%;
+    }
+
+    .container .skill-studies .studies .education{
+        margin: 1.4rem 0 2rem 0;
     }
 
     .container .studies .text .title-studies{
-        font-size: 2.1rem;
+        font-size: 2.6rem;
     }
 
     .container .studies .college .text ul li,
     .container .studies .course .text ul li{
-        font-size: 1.7rem;
+        font-size: 2.2rem;
     }
 
     /* Projects */
+    .container .projects{
+        margin-top: 2rem;
+    }
+
     .container .projects .project{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 4rem;
     }
 
     .container .projects .project-1,
@@ -102,27 +117,28 @@
     }
 
     /* FOOTER */
-    .footer .menu .menu-footer li a{
-        font-size: 2rem;
-    }
-
     .footer .contacts{
-        gap: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2rem;
     }
 
-    .footer .contacts .contact ul li{
-        font-size: 1.8rem;
-    }
-
-    .footer .contacts .nets li a i{
+    .footer .menu .menu-footer li a{
         font-size: 2.4rem;
     }
 
-    .footer .contacts .nets li:not(:nth-child(1)){
-        margin-left: 1rem;
+    /* contact */
+    .footer .contacts .contact ul li{
+        font-size: 2.2rem;
+    }
+
+    /* Nets */
+    .footer .contacts .nets li a i{
+        font-size: 2.8rem;
     }
 }
 
+/* Atualizar */
 @media(max-width: 500px){
     /* FOOTER */
     .footer .menu .menu-footer{
@@ -133,6 +149,10 @@
 
     .footer .menu .menu-footer li{
         margin-bottom: 1.2rem;
+    }
+
+    .footer .contacts .nets li:not(:nth-child(1)){
+        margin-left: 1rem;
     }
 }
 
