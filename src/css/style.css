@@ -315,14 +315,15 @@ span{
     border-radius: 2rem;
 }
 
+/* contacts */
 .footer .contacts{
     display: grid;
     grid: "contacts nets";
     gap: 4rem;
 
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .footer .contacts .contact{

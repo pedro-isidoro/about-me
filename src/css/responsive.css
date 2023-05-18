@@ -85,16 +85,16 @@
     }
 
     .container .skill-studies .studies .education{
-        margin: 1.4rem 0 2rem 0;
+        margin: 1.6rem 0 1.2rem 0;
     }
 
     .container .studies .text .title-studies{
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
 
     .container .studies .college .text ul li,
     .container .studies .course .text ul li{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     /* Projects */
@@ -117,23 +117,32 @@
     }
 
     /* FOOTER */
-    .footer .contacts{
-        display: grid;
-        grid: "contacts"
-              "nets";
-        gap: 2rem;
+    .footer .menu .menu-footer li a{
+        font-size: 2.2rem;
     }
 
-    .footer .menu .menu-footer li a{
-        font-size: 2.4rem;
+    .footer .contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
     }
 
     /* contact */
+    .footer .contacts .contact{
+        align-items: start;
+        margin-left: 1.4rem;
+    }
+
     .footer .contacts .contact ul li{
         font-size: 2.2rem;
     }
 
     /* Nets */
+    .footer .contacts .nets{
+        justify-content: center;
+    }
+
     .footer .contacts .nets li a i{
         font-size: 2.8rem;
     }
