@@ -117,12 +117,6 @@
     }
 
     /* FOOTER */
-    .footer .contacts{
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 2rem;
-    }
-
     .footer .menu .menu-footer li a{
         font-size: 2.4rem;
     }
