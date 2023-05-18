@@ -117,6 +117,13 @@
     }
 
     /* FOOTER */
+    .footer .contacts{
+        display: grid;
+        grid: "contacts"
+              "nets";
+        gap: 2rem;
+    }
+
     .footer .menu .menu-footer li a{
         font-size: 2.4rem;
     }

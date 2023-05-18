@@ -7,6 +7,10 @@ body{
     background-color: var(--background-color);
 }
 
+span{
+    color: var(--high-color-footer);
+}
+
 /* HEADER */
 .header{
     display: flex;
@@ -265,7 +269,7 @@ body{
 .container .projects .project-2 .github a,
 .container .projects .project-3 .github a{
     font-size: 1.6rem;
-    color: var(--high-color);;
+    color: var(--high-color);
 
     padding: 0.6rem;
 }
