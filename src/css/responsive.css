@@ -226,6 +226,7 @@
     /* ABOUT */
     .container .about .me .about-me .my-name{
         font-size: 2.4rem;
+        text-align: left;
         margin-bottom: 2.4rem;
     }
 
