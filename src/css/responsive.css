@@ -286,7 +286,22 @@
 
 /* Atualizando */
 @media(max-width: 450px){
-    
+    /* CONTAINER */
+    .container .about .me{
+        margin-bottom: 6rem;
+        padding: 0 0; 
+    }
+
+    /* ABOUT */
+    .container .about .me .about-me .my-name{
+        font-size: 2.2rem;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .container .about .me .about-me p{
+        font-size: 1.8rem;
+    }
 }
 
 @media(max-width: 376px){
