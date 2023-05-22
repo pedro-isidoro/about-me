@@ -1,8 +1,4 @@
-@media(max-width: 610px){
-
-}
-
-@media(max-width: 610px){
+@media(max-width: 808px){
     /* Header */
     .header nav ul{
         width: 16rem;
@@ -27,7 +23,7 @@
     }
 
     .container .title-name{
-        font-size: 3.4rem;    
+        font-size: 4rem;    
         margin-bottom: 4.8rem;
     }
 
@@ -50,11 +46,11 @@
     }
 
     .container .about .me .about-me .my-name{
-        font-size: 3.1rem;
+        font-size: 3.5rem;
     }
 
     .container .about .me .about-me p{
-        font-size: 2.4rem;
+        font-size: 2.8rem;
     }
 
     /* skill-studies */
@@ -75,7 +71,7 @@
     }
 
     .container .skills .soft-skills ul li{
-        font-size: 2.4rem;
+        font-size: 2.6rem;
         line-height: 3rem;
     }
 
@@ -89,12 +85,12 @@
     }
 
     .container .studies .text .title-studies{
-        font-size: 2.4rem;
+        font-size: 2.8rem;
     }
 
     .container .studies .college .text ul li,
     .container .studies .course .text ul li{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     /* Projects */
@@ -103,17 +99,14 @@
     }
 
     .container .projects .project{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
         gap: 4rem;
     }
 
     .container .projects .project-1,
     .container .projects .project-2,
     .container .projects .project-3{
-        width: 84%;
+        width: 47%;
     }
 
     /* FOOTER */
@@ -129,6 +122,12 @@
     }
 
     /* contact */
+    .footer .menu .menu-footer li a{
+        font-size: 2.6rem;
+    
+        padding: 0.8rem 1.2rem;
+    }
+
     .footer .contacts .contact{
         align-items: start;
         margin-left: 1.4rem;
@@ -143,6 +142,64 @@
         justify-content: center;
     }
 
+    .footer .contacts .nets li a i{
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 610px){
+    /* CONTAINER */
+    .container .title-name{
+        font-size: 3.4rem;    
+        margin-bottom: 4.8rem;
+    }
+
+    /* ABOUT */
+    .container .about .me .about-me .my-name{
+        font-size: 3.1rem;
+    }
+
+    .container .about .me .about-me p{
+        font-size: 2.4rem;
+    }
+
+    /* skill */
+    .container .skills .soft-skills ul{
+        margin-left: 3rem;
+    }
+
+    .container .skills .soft-skills ul li{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    /* Studies */
+    .container .studies .text .title-studies{
+        font-size: 2.4rem;
+    }
+
+    .container .studies .college .text ul li,
+    .container .studies .course .text ul li{
+        font-size: 2rem;
+    }
+
+    /* Projects */
+    .container .projects .project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .container .projects .project-1,
+    .container .projects .project-2,
+    .container .projects .project-3{
+        width: 84%;
+    }
+
+    /* FOOTER */
+    /* Nets */
     .footer .contacts .nets li a i{
         font-size: 2.8rem;
     }
