@@ -23,6 +23,7 @@ span{
 }
 
 .header .name{
+    margin-left: 2rem;
     font-size: 2.8rem;
     color: var(--high-color);
 }

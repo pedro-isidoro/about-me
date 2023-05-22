@@ -1,9 +1,9 @@
 @media(max-width: 610px){
-    /* Header */
-    .header .name{
-        margin-left: 2rem;
-    }
 
+}
+
+@media(max-width: 610px){
+    /* Header */
     .header nav ul{
         width: 16rem;
         padding: 1.4rem 1rem;
