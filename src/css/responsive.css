@@ -205,66 +205,89 @@
     }
 }
 
-/* Atualizar */
 @media(max-width: 500px){
+    /* CONTAINER */
+    .container .about .me{
+        margin-bottom: 6rem;
+        padding: 0 1rem; 
+    }
+
+    .container .about .me img{
+        width: 20rem;
+        height: 20rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .container .title-name{
+        font-size: 3rem;    
+        margin-bottom: 4.8rem;
+    }
+
+    /* ABOUT */
+    .container .about .me .about-me .my-name{
+        font-size: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .container .about .me .about-me p{
+        font-size: 1.8rem;
+    }
+
+    /* skill */
+    .container .skills .soft-skills ul{
+        margin-left: 3rem;
+    }
+
+    .container .skills .soft-skills ul li{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    /* Studies */
+    .container .studies .text .title-studies{
+        font-size: 2rem;
+    }
+
+    .container .studies .college .text ul li,
+    .container .studies .course .text ul li{
+        font-size: 1.6rem;
+    }
+
     /* FOOTER */
     .footer .menu .menu-footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
         flex-wrap: wrap;
-
-        padding: 1.2rem;
-    }
-
-    .footer .menu .menu-footer li{
-        margin-bottom: 1.2rem;
-    }
-
-    .footer .contacts .nets li:not(:nth-child(1)){
-        margin-left: 1rem;
-    }
-}
-
-@media(max-width: 450px){
-    /* FOOTER */
-    .footer .menu .menu-footer{
-        padding: 1.2rem;
-    }
-
-    .footer .menu .menu-footer li{
-        margin-bottom: 1.2rem;
+    
+        gap: 1rem;
+        margin-bottom: 3rem;
     }
 
     .footer .menu .menu-footer li a{
         font-size: 2rem;
-    
-        padding: 0.8rem 1rem;
     }
 
-    .footer .contacts{
-        display: grid;
-        grid: "contacts nets";
-        gap: 2rem;
-    
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
+    /* contact */
+    .footer .contacts .contact{
+        margin-left: 1.4rem;
+    }
+
+    .footer .contacts .contact ul li{
+        font-size: 2rem;
+    }
+
+    /* Nets */
+    .footer .contacts .nets li a i{
+        font-size: 2.6rem;
     }
 }
 
-@media(max-width: 376px){
-    /* FOOTER */
-    .footer .menu .menu-footer{
-        padding: 1rem;
-    }
-
-    .footer .menu .menu-footer li{
-        margin-bottom: 1rem;
-    }
-
-    .footer .menu .menu-footer li a{
-        font-size: 1.8rem;
-        color: var(--high-color-footer);
+/* Atualizando */
+@media(max-width: 450px){
     
-        padding: 0.6rem 1rem;
-    }
+}
+
+@media(max-width: 376px){
+    
 }
