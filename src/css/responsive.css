@@ -199,6 +199,10 @@
     }
 
     /* FOOTER */
+    .footer .menu .menu-footer li a{
+        font-size: 2.48rem;
+    }
+
     /* Nets */
     .footer .contacts .nets li a i{
         font-size: 2.8rem;
@@ -305,5 +309,84 @@
 }
 
 @media(max-width: 376px){
-    
+    /* ABOUT */
+    .container .about .me .about-me .my-name{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2.4rem;
+    }
+
+    .container .about .me .about-me p{
+        font-size: 1.6rem;
+    }
+
+    /* FOOTER */
+    .footer .menu .menu-footer li a{
+        font-size: 1.83rem;
+    }
+
+    /* contact */
+    .footer .contacts .contact{
+        margin-left: 1.4rem;
+    }
+
+    .footer .contacts .contact ul li{
+        font-size: 1.88rem;
+    }
+
+    /* Nets */
+    .footer .contacts .nets li a i{
+        font-size: 2.6rem;
+    }
+}
+
+@media(max-width: 360px){
+    /* FOOTER */
+    .footer .menu .menu-footer li a{
+        font-size: 1.75rem;
+    }
+
+    /* contact */
+    .footer .contacts .contact{
+        margin-left: 1.2rem;
+    }
+
+    .footer .contacts .contact ul li{
+        font-size: 1.8rem;
+    }
+
+    /* Nets */
+    .footer .contacts .nets li a i{
+        font-size: 2.3rem;
+    }
+}
+
+@media(max-width: 321px){
+    /* ABOUT */
+    .container .about .me .about-me .my-name{
+        font-size: 1.68rem;
+    }
+
+    .container .about .me .about-me p{
+        font-size: 1.4rem;
+    }
+
+    /* FOOTER */
+    .footer .menu .menu-footer li a{
+        font-size: 1.4rem;
+    }
+
+    /* contact */
+    .footer .contacts .contact{
+        margin-left: 1.2rem;
+    }
+
+    .footer .contacts .contact ul li{
+        font-size: 1.56rem;
+    }
+
+    /* Nets */
+    .footer .contacts .nets li a i{
+        font-size: 2.2rem;
+    }
 }
