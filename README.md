@@ -10,7 +10,6 @@ Onde estarão uma breve sinopse sobre minha pessoa, locais onde estudo, projetos
 <br>
 <img src='./src/image/about-me-responsive.gif'>
 <br>
-<br>
 
 ## Objetivos
 Fazer uma landing page, na forma de um portifólio, onde irá falar sobre minha pessoa, minhas habilidades e competências, mostrará meu projetos pessoais e por fim meios de contato e link para meu currículo. <br> 

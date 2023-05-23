@@ -338,6 +338,24 @@
         font-size: 1.6rem;
     }
 
+    /* Studies */
+    .container .skill-studies .skills{
+        width: 70%;
+    }
+
+    .container .skill-studies .studies .education{
+        margin: 1.2rem 0 1.2rem 0;
+    }
+
+    .container .studies .text .title-studies{
+        font-size: 1.6rem;
+    }
+
+    .container .studies .college .text ul li,
+    .container .studies .course .text ul li{
+        font-size: 1.4rem;
+    }
+
     /* FOOTER */
     .footer .menu .menu-footer li a{
         font-size: 1.83rem;
@@ -399,6 +417,24 @@
     }
 
     .container .about .me .about-me p{
+        font-size: 1.4rem;
+    }
+
+    /* Studies */
+    .container .skill-studies .skills{
+        width: 70%;
+    }
+
+    .container .skill-studies .studies .education{
+        margin: 1.2rem 0 1.2rem 0;
+    }
+
+    .container .studies .text .title-studies{
+        font-size: 1.4rem;
+    }
+
+    .container .studies .college .text ul li,
+    .container .studies .course .text ul li{
         font-size: 1.4rem;
     }
 
