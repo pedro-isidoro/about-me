@@ -5,7 +5,10 @@ Onde estarão uma breve sinopse sobre minha pessoa, locais onde estudo, projetos
 <br>
 
 ## Projeto
-<img src='./src/image/portifolio-pessoal.gif'>
+<img src='./src/image/about-me.gif'>
+<br>
+<br>
+<img src='./src/image/about-me-responsive.gif'>
 <br>
 <br>
 
